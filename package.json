@@ -1,0 +1,38 @@
+{
+  "name": "gallery-api",
+  "version": "1.0.0",
+  "description": "JS-Backend-Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "hapi",
+    "swagger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "boom": "^7.3.0",
+    "catbox-redis": "^4.1.0",
+    "dotenv": "^6.2.0",
+    "hapi": "^18.1.0",
+    "hapi-auth-basic": "^5.0.0",
+    "hapi-auth-cookie": "^9.1.0",
+    "hapi-swagger": "^9.3.1",
+    "inert": "^5.1.2",
+    "joi": "^14.3.1",
+    "pg-promise": "^8.6.2",
+    "promise": "^8.0.2",
+    "redis": "^2.8.0",
+    "uuid": "^3.3.2",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
